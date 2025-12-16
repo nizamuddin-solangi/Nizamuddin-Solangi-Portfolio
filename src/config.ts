@@ -2,7 +2,7 @@ export const config = {
   developer: {
     name: "Nizamuddin",
     fullName: "Nizamuddin",
-    title: "Frontend and Python Developer",
+    title: "Web and Python Developer",
     description:
       "Frontend-focused developer and Python Developer, learning by building real projects and strengthening fundamentals in modern web technologies."
   },
@@ -16,12 +16,12 @@ export const config = {
   about: {
     title: "About Me",
     description:
-      "I am an 11th-grade student passionate about frontend development, Python, and artificial intelligence. I am currently enrolled in multiple learning programs and focus on building strong fundamentals through consistent practice and real projects. My long-term goal is to study abroad on merit-based scholarships and become a skilled software engineer."
+      "I am an 11th-grade student passionate about web development, Python, and artificial intelligence. I am currently enrolled in multiple learning programs and focus on building strong fundamentals through consistent practice and real projects. My long-term goal is to study abroad on merit-based scholarships and become a skilled software engineer."
   },
 
   experiences: [
     {
-      position: "Frontend Development Student",
+      position: "Web Developer Student",
       company: "Aptech Metro Star Gate",
       period: "2025 - Present",
       location: "Karachi",
@@ -70,29 +70,33 @@ export const config = {
       id: 1,
       title: "Amusement Park",
       category: "Frontend",
-      technologies: "HTML, CSS, JavaScript, React",
-      image: "/images/project-1.webp"
+      technologies: "HTML, CSS, JavaScript, Bootstrap",
+      image: "/images/project-1.png",
+      link: "https://amusementpark-kappa.vercel.app/"
     },
     {
       id: 2,
       title: "Smart Task Manager",
       category: "Frontend",
-      technologies: "React, JavaScript, TailwindCSS",
-      image: "/images/project-2.webp"
+      technologies: "HTML, CSS, JavaScript, Bootstrap",
+      image: "/images/project-2.png",
+      link: "https://task-organizer-theta.vercel.app/"
     },
     {
       id: 3,
       title: "Campus Connect",
       category: "Frontend",
-      technologies: "HTML, CSS, JavaScript",
-      image: "/images/project-3.webp"
+      technologies: "HTML, CSS, React",
+      image: "/images/project-3.png",
+      link: "https://campus-connect-five-iota.vercel.app/"
     },
     {
       id: 4,
       title: "School Management System",
       category: "Programming",
       technologies: "Python",
-      image: "/images/project-4.webp"
+      image: "/images/project-4.png",
+      link: "https://opsystem.streamlit.app/"
     }
   ],
 
@@ -100,13 +104,13 @@ export const config = {
     email: "nizamuddinsolangi614@gmail.com",
     github: "https://github.com/nizamuddin-solangi",
     linkedin: "https://www.linkedin.com/in/nizamuddin-solangi-a2671039a/",
-    twitter: "https://x.com",
+    twitter: "https://www.facebook.com/nizamuddin.solangi.269069",
     instagram: "https://www.instagram.com/solangi_nizamuddin/"
   },
 
   skills: {
     develop: {
-      title: "DEVELOPER",
+      title: "WEB DEVELOPER",
       description: "Frontend development and programming fundamentals",
       details:
         "Building strong foundations in frontend development and programming through consistent learning and hands-on projects.",
@@ -115,24 +119,23 @@ export const config = {
         "CSS",
         "JavaScript",
         "React",
-        "TailwindCSS",
-        "Git",
-        "GitHub",
-        "Python"
+        "Git & Github",
       ]
     },
     design: {
-      title: "DESIGN",
-      description: "Basic UI/UX design and modern web interfaces",
-      details:
-        "Learning to create clean, responsive, and user-friendly interfaces with a focus on simplicity and accessibility.",
-      tools: [
-        "UI Design Basics",
-        "Responsive Design",
-        "Accessibility Basics",
-        "Figma (Beginner)",
-        "Layout Design"
-      ]
-    }
+    title: "PYTHON DEV",
+    description: "Building logic-driven applications and backend systems",
+    details:
+      "Focused on writing clean, efficient, and maintainable Python code.",
+    tools: [
+      "Python",
+      "OOPs",
+      "NumPy",
+      "Pandas",
+      "Git & GitHub",
+      "Basic SQL"
+    ]
+  }
+
   }
 };

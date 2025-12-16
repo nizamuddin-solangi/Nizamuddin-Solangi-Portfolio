@@ -30,7 +30,7 @@ const Work = () => {
       scrollTrigger: {
         trigger: ".work-section",
         start: "top top",
-        end: `+=${translateX}`, // Use actual scroll width
+        end: `+=${translateX}`, 
         scrub: true,
         pin: true,
         id: "work",
@@ -67,7 +67,8 @@ const Work = () => {
                   </div>
                 </div>
                 <h4>Tools and features</h4>
-                <p>{project.technologies}</p>
+                <p>{project.technologies}</p><br />
+                <a href={project.link} className="live-link" target="_blank">--- Click Here</a>
               </div>
               <WorkImage image={project.image} alt={project.title} />
             </div>
